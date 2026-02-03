@@ -1,17 +1,17 @@
-# 🌌 Antigravity Full Kit: O Motor Definitivo de IA
+# 🌌 Antigravity Full Kit: The Ultimate AI Engine
 
-Bem-vindo ao **Antigravity Full Kit**, um ecossistema unificado e pronto para produção, projetado para transformar a maneira como agentes de IA interagem com seu código. Este repositório combina **Personas de Agentes**, uma vasta **Biblioteca de Skills** e **Workflows** automatizados em um único motor de alta performance.
+Welcome to the **Antigravity Full Kit**, a unified, production-ready ecosystem designed to transform how AI agents interact with your codebase. This repository combines **Agent Personas**, a vast **Skills Library**, and automated **Workflows** into a single high-performance engine.
 
-## 🏗️ Arquitetura do Ecossistema
+## 🏗️ Ecosystem Architecture
 
-O Full Kit é construído sobre quatro pilares de inteligência, todos interconectados para fornecer uma experiência de desenvolvimento fluida.
+The Full Kit is built on four interconnected pillars of intelligence, providing a seamless development experience.
 
 ```mermaid
 graph TD
-    A["🧠 Personas de IA (Agentes)"] -->|Coordena| B["🛠️ Biblioteca de Skills"]
-    B -->|Executa| C["📂 Seu Projeto"]
-    D["⚡ Workflows (/slash)"] -->|Automatiza| A
-    E["📜 Regras de Arquitetura"] -->|Governa| A
+    A["🧠 AI Personas (Agents)"] -->|Coordinates| B["🛠️ Skills Library"]
+    B -->|Executes| C["📂 Your Project"]
+    D["⚡ Workflows (/slash)"] -->|Automates| A
+    E["📜 Architecture Rules"] -->|Governs| A
     style A fill:#4a90e2,stroke:#333,stroke-width:2px
     style B fill:#50e3c2,stroke:#333,stroke-width:2px
     style D fill:#f5a623,stroke:#333,stroke-width:2px
@@ -19,40 +19,42 @@ graph TD
 
 ---
 
-## 📂 Resumo Estruturado do Ecossistema
+## 📂 Structured Ecosystem Summary
 
-Para facilitar a navegação (tanto para humanos quanto para IAs), os componentes são divididos em quatro grupos lógicos:
+To facilitate navigation (for both humans and AIs), components are divided into four logical groups:
 
-### 1. 🧠 O Cérebro (Agentes Especialistas)
-*Local: `.agent/agents/`*
-*   **Gestão & Planejamento**: `@project-planner`, `@product-manager`, `@product-owner`.
-*   **Desenvolvimento Core**: `@frontend-specialist`, `@backend-specialist`, `@database-architect`.
-*   **Qualidade & Segurança**: `@security-auditor`, `@test-engineer`, `@debugger`.
-*   **Manutenção & Legado**: `@code-archaeologist`, `@documentation-writer`.
+### 1. 🧠 The Brain (Specialist Agents)
+*Location: `.agent/agents/`*
+*   **Management & Planning**: `@project-planner`, `@product-manager`, `@product-owner`.
+*   **Core Development**: `@frontend-specialist`, `@backend-specialist`, `@database-architect`.
+*   **Quality & Security**: `@security-auditor`, `@test-engineer`, `@debugger`.
+*   **Maintenance & Legacy**: `@code-archaeologist`, `@documentation-writer`.
 
-### 2. 🛠️ Os Músculos (Conhecimento Técnico)
-*Local: `.agent/skills/`*
+### 2. 🛠️ The Muscle (Technical Knowledge)
+*Location: `.agent/skills/`*
 *   **Fullstack & Web**: React, Next.js, Tailwind, TypeScript, Node.js.
 *   **Backend & Cloud**: API Patterns, Python, Docker, AWS, Server Management.
-*   **Dados & IA**: Postgres, SQL Optimization, Vector DBs, Prompt Engineering, RAG.
-*   **Segurança Ofensiva**: Pentesting, Vulnerability Scanning, OWASP Rules.
+*   **Data & AI**: Postgres, SQL Optimization, Vector DBs, Prompt Engineering, RAG.
+*   **Offensive Security**: Pentesting, Vulnerability Scanning, OWASP Rules.
 
-### 3. ⚡ A Automação (Fluxos de Trabalho)
-*Local: `.agent/workflows/`*
-*   **Criação**: `/create` (Scaffold de Apps), `/brainstorm` (Alinhamento).
-*   **Operação**: `/orchestrate` (Coordenação), `/deploy` (Lançamento).
-*   **Otimização**: `/enhance` (Melhorias de Código), `/ui-ux-pro-max` (Design).
+### 3. ⚡ The Automation (Workflows)
+*Location: `.agent/workflows/`*
+*   **Creation**: `/create` (App Scaffolding), `/brainstorm` (Alignment).
+*   **Operation**: `/orchestrate` (Coordination), `/deploy` (Launch).
+*   **Optimization**: `/enhance` (Code Improvements), `/ui-ux-pro-max` (Design).
 
-### 4. 📜 A Lei (Regras e Governança)
-*Local: `.agent/rules/`*
-*   **Padrões de Código**: Diretrizes de Clean Code e Arquitetura.
-*   **Protocolos de Segurança**: Checklists obrigatórios de segurança.
-*   **Processos de Verificação**: Passos para validação AAA e testes.
+### 4. 📜 The Law (Rules & Governance)
+*Location: `.agent/rules/`*
+*   **Code Standards**: Clean Code and Architecture Guidelines.
+*   **Security Protocols**: Mandatory security checklists.
+*   **Verification Processes**: AAA validation and testing steps.
 
 ---
 
 > [!IMPORTANT]
-> **Orientação para IAs**: Não há necessidade de ler cada arquivo `SKILL.md` individualmente. Para uma navegação eficiente e para evitar alucinações, utilize o arquivo `skills_index.json`. Ele contém os resumos e metadados de todas as skills, servindo como o mapa mestre de conhecimento deste ecossistema.
+> **Guidance for AIs**:
+> 1. **Skills**: No need to read every `SKILL.md` file individually. Use `skills_index.json` to avoid hallucinations.
+> 2. **Architecture**: To deeply understand the ecosystem's structure and capabilities, read `.agent/ARCHITECTURE_KIT.md` before planning complex tasks.
 
 ---
 
@@ -60,15 +62,15 @@ Para facilitar a navegação (tanto para humanos quanto para IAs), os componente
 
 ## 🌐 Web Toolkit
 
-O diretório `web/` contém nossas utilidades visuais de frontend, permitindo que a IA gere e teste componentes de UI em um ambiente de visualização ao vivo.
+The `web/` directory contains our visual frontend utilities, allowing AI to generate and test UI components in a live preview environment.
 
-## 🚀 Começando
+## 🚀 Getting Started
 
-Para tirar o máximo proveito deste Kit, basta referenciar uma persona ou comando:
+To get the most out of this Kit, simply reference a persona or command:
 
-1.  **Planejar**: `@project-planner Eu quero construir um novo dashboard.`
-2.  **Construir**: `/create`
-3.  **Auditar**: `@security-auditor verifique minha implementação de autenticação.`
+1.  **Plan**: `@project-planner I want to build a new dashboard.`
+2.  **Build**: `/create`
+3.  **Audit**: `@security-auditor check my authentication implementation.`
 
 ---
-*Criado por Rodrigo Meurer.*
+*Created by Rodrigo Meurer.*
