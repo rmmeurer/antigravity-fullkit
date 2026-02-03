@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.agent/skills/node_modules/
+.agent/skills/data/node_modules/
+
+# AI Assistant & IDE
+.gemini/
+.agentMemory/
+.vscode/
+.idea/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment and Logs
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project-specific legacy cleanup rules
+.temp_ag_kit/
+gitignore_AG_KIT.txt
+package_AG_KIT.json
+README_AG_KIT.md
+ARCHITECTURE_KIT.md.bak
