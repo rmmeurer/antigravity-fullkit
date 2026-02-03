@@ -19,52 +19,42 @@ graph TD
 
 ---
 
-## 🤖 1. O Cérebro: Personas de Agentes Especializados
+## 📂 Resumo Estruturado do Ecossistema
 
-Localizados em `.agent/agents/`, estas são personas de alto nível que eu (a IA) posso adotar para resolver problemas específicos.
+Para facilitar a navegação (tanto para humanos quanto para IAs), os componentes são divididos em quatro grupos lógicos:
 
-| Persona | Responsabilidade Principal | Quando Invocar |
-| :--- | :--- | :--- |
-| **Orchestrator** | Coordenação multi-agente | Funcionalidades complexas e multi-domínio |
-| **Project Planner** | Quebra de tarefas e Roadmap | Início de novos projetos ou features |
-| **Debugger** | Causa raiz e correções sistemáticas | Investigação de bugs e erros |
-| **Architect** | Design e integridade do sistema | Planejamento de mudanças estruturais |
+### 1. 🧠 O Cérebro (Agentes Especialistas)
+*Local: `.agent/agents/`*
+*   **Gestão & Planejamento**: `@project-planner`, `@product-manager`, `@product-owner`.
+*   **Desenvolvimento Core**: `@frontend-specialist`, `@backend-specialist`, `@database-architect`.
+*   **Qualidade & Segurança**: `@security-auditor`, `@test-engineer`, `@debugger`.
+*   **Manutenção & Legado**: `@code-archaeologist`, `@documentation-writer`.
+
+### 2. 🛠️ Os Músculos (Conhecimento Técnico)
+*Local: `.agent/skills/`*
+*   **Fullstack & Web**: React, Next.js, Tailwind, TypeScript, Node.js.
+*   **Backend & Cloud**: API Patterns, Python, Docker, AWS, Server Management.
+*   **Dados & IA**: Postgres, SQL Optimization, Vector DBs, Prompt Engineering, RAG.
+*   **Segurança Ofensiva**: Pentesting, Vulnerability Scanning, OWASP Rules.
+
+### 3. ⚡ A Automação (Fluxos de Trabalho)
+*Local: `.agent/workflows/`*
+*   **Criação**: `/create` (Scaffold de Apps), `/brainstorm` (Alinhamento).
+*   **Operação**: `/orchestrate` (Coordenação), `/deploy` (Lançamento).
+*   **Otimização**: `/enhance` (Melhorias de Código), `/ui-ux-pro-max` (Design).
+
+### 4. 📜 A Lei (Regras e Governança)
+*Local: `.agent/rules/`*
+*   **Padrões de Código**: Diretrizes de Clean Code e Arquitetura.
+*   **Protocolos de Segurança**: Checklists obrigatórios de segurança.
+*   **Processos de Verificação**: Passos para validação AAA e testes.
 
 ---
-
-## 🛠️ 2. Os Músculos: Biblioteca de Skills
-
-Uma coleção curada de **516 skills especializadas** (em `.agent/skills/`) que fornecem o conhecimento técnico para quase qualquer domínio.
 
 > [!IMPORTANT]
 > **Orientação para IAs**: Não há necessidade de ler cada arquivo `SKILL.md` individualmente. Para uma navegação eficiente e para evitar alucinações, utilize o arquivo `skills_index.json`. Ele contém os resumos e metadados de todas as skills, servindo como o mapa mestre de conhecimento deste ecossistema.
 
-- **JS/TS & Frontend Moderno**: Melhores práticas para React, Next.js e CSS.
-- **Operações de IA & RAG**: Engenharia de prompt avançada e gestão de memória.
-- **Segurança & Pentesting**: Varredura de vulnerabilidades e endurecimento de sistemas.
-- **Bancos de Dados & Otimização**: Ajuste de SQL, indexação e design de esquema.
-- **Automação de Workflow**: Scripts e padrões para CI/CD e DevOps.
-
 ---
-
-## ⚡ 3. A Automação: Workflows de Comandos Slash
-
-Fluxos automatizados localizados em `.agent/workflows/` que executam sequências complexas com um único comando.
-
-- `/create`: Aciona o App Builder para iniciar um novo projeto do zero.
-- `/orchestrate`: Invoca automaticamente o Orchestrator para tarefas de múltiplos agentes.
-- `/debug`: Ativa um modo de investigação sistemática.
-- `/ui-ux-pro-max`: Aplica tokens de design premium e auditorias de acessibilidade.
-
----
-
-## 📜 4. A Lei: Regras Globais e Governança
-
-Localizados em `.agent/rules/`, estes arquivos garantem que cada mudança que eu faça siga os padrões rigorosos do seu projeto.
-
-- **Hábitos de Clean Code**: Adesão obrigatória a padrões legíveis e eficientes.
-- **Protocolo Socrático**: Eu farei perguntas antes de iniciar grandes implementações.
-- **Implantação Padronizada**: Verificação em 5 fases para todo código de produção.
 
 ---
 

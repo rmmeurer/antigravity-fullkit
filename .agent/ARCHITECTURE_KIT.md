@@ -37,18 +37,39 @@ antigravity-docs/
 
 ## 🤖 1. Agentes (Personas de IA)
 
-Estes são os perfis que eu assumo para coordenar a execução do projeto. Cada agente tem acesso a toda a biblioteca de skills, mas prioriza módulos específicos.
+Estes são os perfis que eu assumo para coordenar a execução do projeto. Eles são categorizados por domínio para facilitar a escolha da persona correta.
 
-| Agente                    | Foco Principal             | Domínio de Skills (Exemplos)                             |
-| ------------------------ | -------------------------- | -------------------------------------------------------- |
-| `orchestrator`           | Coordenação Multi-agente   | parallel-agents, behavioral-modes                        |
-| `project-planner`        | Planejamento e Roadmap     | brainstorming, plan-writing, architecture                |
-| `frontend-specialist`    | UI/UX Web                  | frontend-design, react-best-practices, tailwind-patterns |
-| `backend-specialist`     | API e Lógica de Negócio    | api-patterns, nodejs-best-practices, database-design     |
-| `database-architect`     | Esquema e SQL              | database-design, postgres-best-practices                 |
-| `security-auditor`       | Auditoria de Segurança     | vulnerability-scanner, red-team-tactics                  |
-| `test-engineer`          | Garantia de Qualidade      | testing-patterns, tdd-workflow, webapp-testing           |
-| `debugger`               | Investigação de Erros      | systematic-debugging, performance-profiling               |
+### 🔌 Backend, Cloud & Infraestrutura
+| Agente                    | Foco Principal             | Domínio de Skills                            |
+| ------------------------ | -------------------------- | -------------------------------------------- |
+| `backend-specialist`     | API e Lógica de Negócio    | api-patterns, nodejs-best-practices          |
+| `database-architect`     | Esquema e SQL              | database-design, postgres-best-practices     |
+| `devops-engineer`        | CI/CD, Docker e Cloud      | deployment-procedures, docker-expert         |
+| `architect`              | Design Estrutural de Sist. | architecture, app-builder, system-design     |
+
+### 🎨 Frontend & Experiência Visual
+| Agente                    | Foco Principal             | Domínio de Skills                            |
+| ------------------------ | -------------------------- | -------------------------------------------- |
+| `frontend-specialist`    | UI/UX Web                  | frontend-design, nextjs-expert, tailwind     |
+| `ui-ux-pro-max`          | Design de Alta Fidelidade  | theme-factory, palettes, animation-patterns  |
+| `seo-specialist`         | Visibilidade e Web Vitals  | seo-fundamentals, performance-profiling      |
+
+### 📋 Gestão, Agile & Produto
+| Agente                    | Foco Principal             | Domínio de Skills                            |
+| ------------------------ | -------------------------- | -------------------------------------------- |
+| `project-planner`        | Planejamento e Roadmap     | brainstorming, plan-writing                  |
+| `product-manager`        | Requisitos e User Stories  | plan-writing, product-strategy               |
+| `product-owner`          | Visão de Produto e MVP     | market-analysis, feature-prioritization      |
+| `orchestrator`           | Coordenação Multi-agente   | parallel-agents, communication-protocols     |
+
+### 🛡️ Segurança, Debug & Qualidade
+| Agente                    | Foco Principal             | Domínio de Skills                            |
+| ------------------------ | -------------------------- | -------------------------------------------- |
+| `security-auditor`       | Auditoria e Compliance     | vulnerability-scanner, security-auditing     |
+| `penetration-tester`     | Testes de Invasão Ofensivos| red-team-tactics, exploits-knowledge         |
+| `debugger`               | Investigação de Causa Raiz | systematic-debugging, log-analysis           |
+| `test-engineer`          | Automação de Testes        | testing-patterns, playwright-skill           |
+| `code-archaeologist`     | Refatoração de Legado      | clean-code, technical-debt-reduction         |
 
 ---
 
