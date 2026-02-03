@@ -8,6 +8,11 @@ Track the evolution of the **Antigravity Full Kit** here.
 - **Documentation Language**: Standardized all documentation (README, ARCHITECTURE, CHANGELOG, setup script) to English for international accessibility.
 - **AI Guidelines Enhanced**: Added explicit instruction for AI agents to read `ARCHITECTURE_KIT.md` for better structural understanding.
 
+### Added
+- **Installation Guide**: Clear step-by-step setup instructions in README
+- **Usage Examples**: Practical examples for Agent Personas, Slash Commands, and Direct Skill Access
+- **Visual Architecture**: Enhanced mermaid diagram with improved color scheme and iconography
+
 ## [1.0.0] - Official Full Kit Launch - 2026-02-03
 
 This is the project's initial milestone, consolidating months of knowledge curation and agent engineering into a single, powerful engine.
